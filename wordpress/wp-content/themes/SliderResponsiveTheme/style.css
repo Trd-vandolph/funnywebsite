@@ -115,7 +115,7 @@ sup { font-size: 11px; }
 ::-moz-selection {
 	background: #ccc; 
 }
-#main_container { width: 976px; margin: 0 auto; }
+#main_container { width: 926px; margin: 0 auto; }
 /* HTML5 tags */
 header, section, footer,
 aside, nav, article, figure {
@@ -256,6 +256,13 @@ h1.single_title { margin: 0 0 15px; font-size: 18px; font-weight: normal; }
 	#footer { font-size: 12px; }	
 	
 }
+
+/*
+*
+* new design 
+*
+*/
+
 #main_container {
 	margin-top: 20px;
 }
@@ -316,8 +323,120 @@ h1.single_title { margin: 0 0 15px; font-size: 18px; font-weight: normal; }
 #menu_container ul li a:hover,
 #menu_container ul li.current_page_item a,
 #menu_container ul li a {
-	padding: 5px 50px 5px 50px;
+	padding: 5px 45px 5px 45px;
 }
 .responsive-slider.flexslider .slides img{
 	width: 976px;
+}
+
+/*
+*
+* new design responsive 
+*
+*/
+@media only screen and (max-width: 959px) and (min-width: 768px) {
+	.logo {
+		width: 220px;
+	}
+	#header .text_center > a > img,
+	.contact {
+		max-width: 150px;
+		top: 30px;
+	}
+	#menu_container ul li a:hover,
+	#menu_container ul li.current_page_item a,
+	#menu_container ul li a {
+		padding: 5px 25px 5px 25px;
+	}
+	#header .text_center {
+		height: 100px;
+	}
+	#left_banner img {
+		max-width: 150px;
+	}
+	#right_banner img {
+		max-width: 500px;
+		max-height: 120px;
+	}
+}
+@media only screen and (max-width: 767px) and (min-width: 576px) {
+	#main_container {
+		width: 460px;	
+	}
+	.logo {
+		width: 126px;
+	}
+	#menu_container ul li a:hover,
+	#menu_container ul li.current_page_item a,
+	#menu_container ul li a {
+		padding: 5px 25px 5px 25px;
+	}
+	#header .text_center {
+		height: 60px;
+	}
+	#left_banner img {
+		max-width: 100px;
+		max-height: 150px;
+		margin-bottom: 30px;
+	}
+	#right_banner img {
+		max-width: 300px;
+		max-height: 80px;
+		margin-bottom: 30px;
+	}
+	#header .text_center > a > img,
+	.contact {
+		max-width: 100px;
+		top: 10px;
+	}
+	#menu_container ul li {
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width: 575px) {
+	.logo {
+		width: 100px;
+	}
+	#menu_container ul li a:hover,
+	#menu_container ul li.current_page_item a,
+	#menu_container ul li a {
+		padding: 5px 10px 5px 10px;
+	}
+	#header .text_center {
+		height: 48px;
+	}
+	#left_banner {
+		float: none;
+		max-width: 100px;
+		margin: auto auto;
+	}
+	#left_banner img {
+		max-width: 100px;
+		max-height: 150px;
+		margin-bottom: 30px;
+	}
+	#right_banner {
+		float: none;
+		max-width: 230px;
+		margin: auto auto;
+	}
+	#right_banner ul {
+		padding: 0;
+	}
+	#right_banner img {
+		max-width: 300px;
+		max-height: 80px;
+		margin-bottom: 30px;
+	}
+	#header .text_center > a > img {
+		left: 40px;
+	}
+	#header .text_center > a > img,
+	.contact {
+		max-width: 60px;
+		top: 19px;
+	}
+	#menu_container ul li {
+		font-size: 14px;
+	}
 }
