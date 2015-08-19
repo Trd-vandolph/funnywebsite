@@ -13,7 +13,9 @@
  * @subpackage Twenty_Thirteen
  * @since Twenty Thirteen 1.0
  */
-
+<div>
+<h1> This is a new div </h1>
+</div>
 get_header(); ?>
 
 	<div id="primary" class="content-area">
